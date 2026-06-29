@@ -1,9 +1,17 @@
-# test
+# disable_Minecraft_anti-cheat
 
-## Setup
+Disable Minecraft's built-in anti-cheat check
+禁用游戏内置的反作弊
 
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
 
-## License
+BlockCheckAttack(attack reach)
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+BlockCheckBreakAction(Break block reach destroy speed check)
+
+BlockCheckPlayerAction
+
+BlockCheckPlayerMovement(noclip)
+
+BlockCheckUseItemOn(place block reach)
+
+BlockCheckVehicleMovement(Vehicle noclip)
