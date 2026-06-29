@@ -10,8 +10,8 @@ BlockCheckBreakAction(Break block reach destroy speed check)
 
 BlockCheckPlayerAction
 
-BlockCheckPlayerMovement(noclip)
+BlockCheckPlayerMovement(noclip and tp)
 
 BlockCheckUseItemOn(place block reach)
 
-BlockCheckVehicleMovement(Vehicle noclip)
+BlockCheckVehicleMovement(Vehicle noclip and tp)
