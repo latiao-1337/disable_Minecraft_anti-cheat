@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "package": "me.latiao.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "refmap": "test-refmap.json",
+  "mixins": [
+//    		"BlockKick",
+    "BlockCheckPlayerMovement",
+    "BlockTeleport",
+    "BlockCheckVehicleMovement",
+    "BlockCheckUseItemOn",
+    "BlockCheckAttack",
+    "BlockCheckPlayerAction",
+    "BlockCheckBreakAction"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
